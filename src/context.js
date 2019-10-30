@@ -19,6 +19,10 @@ function getPageAttr(attrName, inst) {
   return null;
 }
 
+export function getPageShareContent(inst) {
+  return getPageAttr('shareContent', inst);
+}
+
 export function emitChange(
   inst,
   attrs = ['title', 'navigationBar', 'background']

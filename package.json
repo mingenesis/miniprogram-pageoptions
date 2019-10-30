@@ -1,6 +1,6 @@
 {
   "name": "miniprogram-pageoptions",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "使用自定义组件来动态设置页面的属性",
   "keywords": [
     "miniprogram",
