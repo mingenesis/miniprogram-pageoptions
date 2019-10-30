@@ -51,3 +51,14 @@ Page({
 <pageoptions title="{{title}}" shareContent="{{shareContent}}" />
 <view>商品详情...</view>
 ```
+
+## API Reference
+
+#### `<pageoptions />` from "miniprogram-pageoptions" - 动态设置页面属性
+
+- `title` - 设置导航条的标题
+- `navigationBar` - 设置导航条的颜色，格式为 `[前景色] [背景色]` ，例如 `#000000 #ffffff`
+- `background` - 设置背景的字体样式和背景色，格式为 `[字体样式] [背景色] [顶部背景色] [底部背景色]`，例如 `dark #ffffff #ffffff #ffffff`
+- `shareContent` - 设置页面的分享内容
+
+#### `getPageShareContent` from "miniprogram-pageoptions/context" - 获取页面的分享内容
